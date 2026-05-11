@@ -13,7 +13,7 @@ async function getData(e) {
 
     loadingElem.style.display = "block";
 
-    let api = `http://api.weatherapi.com/v1/forecast.json?key=76a368caa21646d7b5740739251402&q=${city}&days=3&aqi=no&alerts=no`;
+    let api = `https://api.weatherapi.com/v1/forecast.json?key=76a368caa21646d7b5740739251402&q=${city}&days=3&aqi=no&alerts=no`;
 
     try {
 
